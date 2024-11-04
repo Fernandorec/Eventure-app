@@ -1,5 +1,6 @@
 import "./Departamentos.css";
 import { Link } from "react-router-dom";
+import Portada from './Portada';
 
 function Departamentos() {
   return (
@@ -17,7 +18,7 @@ function Departamentos() {
           rel="stylesheet"
         />
       </>
-
+     <Portada/>
       <div className="row">
         <div className="col-custom box" id="box1">
           <p className="Departamento">Ahuachapán</p>
@@ -63,7 +64,10 @@ function Departamentos() {
         </div>
       </div>
     </div>
+
+    
   );
 }
+
 
 export default Departamentos;
