@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Departamentos from "./Departamentos";
 import LaLibertadLugares from "./LaLibertadLugares/LaLibertadLugares";
 import HotelMediterraneo from "./Hotel-Mediterraneo/Hotel-Mediterraneo";
+import Login from "./Login/Login";
 
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -72,9 +73,14 @@ function AllPage() {
         <Route path="/lalibertad" element={<LaLibertadLugares />} /> {/* Ruta La Libertad */}
         <Route path="/Hotel-Mediterraneo" element={<HotelMediterraneo />} /> {/* Nueva Ruta */}
       </Routes>
+<Login />
       <Footer />
     </BrowserRouter>
   );
 }
 
 export default AllPage;
+
+
+
+

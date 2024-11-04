@@ -10,4 +10,16 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+
+}
+
+
+
+.login-image {
+  width: 200px; 
+  height: auto; 
+}
+
+.IDredondear {
+  border-radius: 30px;
 }
