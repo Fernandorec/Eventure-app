@@ -1,6 +1,5 @@
 import "./Departamentos.css";
 import { Link } from "react-router-dom";
-import CarrucelInicio from "./Carrucel-Inicio/Carrucel-Inicio";
 
 function Departamentos() {
   return (
@@ -64,7 +63,7 @@ function Departamentos() {
         </div>
       </div>
 
-      <CarrucelInicio />
+      
       </div>
     
   );

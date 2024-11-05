@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Departamentos from "./Departamentos";
 import LaLibertadLugares from "./LaLibertadLugares/LaLibertadLugares";
 import HotelMediterraneo from "./Hotel-Mediterraneo/Hotel-Mediterraneo";
+import CarrucelInicio from "./Carrucel-Inicio/Carrucel-Inicio";
 
 
 
@@ -68,6 +69,8 @@ function AllPage() {
   return (
     <BrowserRouter>
       <App /> {/* El banner se muestra en ambas rutas */}
+      <CarrucelInicio />
+      
       
       
   
