@@ -1,5 +1,6 @@
 import "./Departamentos.css";
 import { Link } from "react-router-dom";
+import CarrucelInicio from "./Carrucel-Inicio/Carrucel-Inicio";
 
 function Departamentos() {
   return (
@@ -62,7 +63,10 @@ function Departamentos() {
           <p className="Departamento">La Unión</p>
         </div>
       </div>
-    </div>
+
+      <CarrucelInicio />
+      </div>
+    
   );
 }
 

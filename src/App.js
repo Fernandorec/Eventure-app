@@ -6,6 +6,7 @@ import LaLibertadLugares from "./LaLibertadLugares/LaLibertadLugares";
 import HotelMediterraneo from "./Hotel-Mediterraneo/Hotel-Mediterraneo";
 
 
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 
@@ -67,14 +68,20 @@ function AllPage() {
   return (
     <BrowserRouter>
       <App /> {/* El banner se muestra en ambas rutas */}
+      
+      
+  
       <Routes>
         <Route path="/" element={<Departamentos />} /> {/* Ruta raíz */}
         <Route path="/lalibertad" element={<LaLibertadLugares />} /> {/* Ruta La Libertad */}
-        <Route path="/Hotel-Mediterraneo" element={<HotelMediterraneo />} /> {/* Nueva Ruta */}
+        <Route path="/Hotel-Mediterraneo" element={<HotelMediterraneo />} /> {/* Nueva Ruta */}  
       </Routes>
+
       <Footer />
     </BrowserRouter>
   );
 }
+
+
 
 export default AllPage;
